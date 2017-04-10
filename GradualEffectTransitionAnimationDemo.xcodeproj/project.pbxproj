@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08C1DA7A1E9B145200820381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA791E9B145200820381 /* main.m */; };
+		08057A6C1E9B235900F1B9B6 /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08057A6B1E9B235900F1B9B6 /* 01.jpeg */; };
+		08057A6F1E9B28C700F1B9B6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A6E1E9B28C700F1B9B6 /* HomeViewController.m */; };
+		08057A721E9B2C6B00F1B9B6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A711E9B2C6B00F1B9B6 /* SecondViewController.m */; };
+		08057A751E9B2CC700F1B9B6 /* SecondContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A741E9B2CC700F1B9B6 /* SecondContentView.m */; };
 		08C1DA7D1E9B145200820381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA7C1E9B145200820381 /* AppDelegate.m */; };
-		08C1DA801E9B145200820381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA7F1E9B145200820381 /* ViewController.m */; };
-		08C1DA831E9B145200820381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DA811E9B145200820381 /* Main.storyboard */; };
-		08C1DA851E9B145200820381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DA841E9B145200820381 /* Assets.xcassets */; };
-		08C1DA881E9B145200820381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DA861E9B145200820381 /* LaunchScreen.storyboard */; };
 		08C1DA931E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA921E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.m */; };
 		08C1DA9E1E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA9D1E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.m */; };
+		08C1DACF1E9B15EB00820381 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DAB81E9B15EB00820381 /* CommonViewController.m */; };
+		08C1DAD01E9B15EB00820381 /* AutoLayoutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DABD1E9B15EB00820381 /* AutoLayoutObject.m */; };
+		08C1DAD11E9B15EB00820381 /* UIView+AutoLayoutAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DABF1E9B15EB00820381 /* UIView+AutoLayoutAttribute.m */; };
+		08C1DAD31E9B15EB00820381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DAC51E9B15EB00820381 /* Assets.xcassets */; };
+		08C1DAD41E9B15EB00820381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DAC61E9B15EB00820381 /* LaunchScreen.storyboard */; };
+		08C1DAD51E9B15EB00820381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DAC81E9B15EB00820381 /* Main.storyboard */; };
+		08C1DAD61E9B15EB00820381 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08C1DACA1E9B15EB00820381 /* Info.plist */; };
+		08C1DAD71E9B15EB00820381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DACB1E9B15EB00820381 /* main.m */; };
+		08C1DAE11E9B1C3900820381 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DAE01E9B1C3900820381 /* CustomTransitionViewController.m */; };
+		08C1DAE41E9B1C6B00820381 /* GradualEffectTranisitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DAE31E9B1C6B00820381 /* GradualEffectTranisitionAnimation.m */; };
+		08C1DAE71E9B1FDF00820381 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DAE61E9B1FDF00820381 /* HomeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +45,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08057A6B1E9B235900F1B9B6 /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpeg; sourceTree = "<group>"; };
+		08057A6D1E9B28C700F1B9B6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		08057A6E1E9B28C700F1B9B6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		08057A701E9B2C6B00F1B9B6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		08057A711E9B2C6B00F1B9B6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		08057A731E9B2CC700F1B9B6 /* SecondContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondContentView.h; sourceTree = "<group>"; };
+		08057A741E9B2CC700F1B9B6 /* SecondContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondContentView.m; sourceTree = "<group>"; };
 		08C1DA751E9B145200820381 /* GradualEffectTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradualEffectTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08C1DA791E9B145200820381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08C1DA7B1E9B145200820381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08C1DA7C1E9B145200820381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08C1DA7E1E9B145200820381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08C1DA7F1E9B145200820381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		08C1DA821E9B145200820381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		08C1DA841E9B145200820381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08C1DA871E9B145200820381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		08C1DA891E9B145300820381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08C1DA8E1E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradualEffectTransitionAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C1DA921E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradualEffectTransitionAnimationDemoTests.m; sourceTree = "<group>"; };
 		08C1DA941E9B145300820381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08C1DA991E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradualEffectTransitionAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C1DA9D1E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradualEffectTransitionAnimationDemoUITests.m; sourceTree = "<group>"; };
 		08C1DA9F1E9B145300820381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C1DAB71E9B15EB00820381 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		08C1DAB81E9B15EB00820381 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		08C1DAB91E9B15EB00820381 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		08C1DABC1E9B15EB00820381 /* AutoLayoutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutObject.h; sourceTree = "<group>"; };
+		08C1DABD1E9B15EB00820381 /* AutoLayoutObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutObject.m; sourceTree = "<group>"; };
+		08C1DABE1E9B15EB00820381 /* UIView+AutoLayoutAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayoutAttribute.h"; sourceTree = "<group>"; };
+		08C1DABF1E9B15EB00820381 /* UIView+AutoLayoutAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayoutAttribute.m"; sourceTree = "<group>"; };
+		08C1DAC01E9B15EB00820381 /* YWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWAutoLayout.h; sourceTree = "<group>"; };
+		08C1DAC51E9B15EB00820381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C1DAC71E9B15EB00820381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08C1DAC91E9B15EB00820381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08C1DACA1E9B15EB00820381 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08C1DACB1E9B15EB00820381 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08C1DACC1E9B15EB00820381 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		08C1DADF1E9B1C3900820381 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
+		08C1DAE01E9B1C3900820381 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
+		08C1DAE21E9B1C6B00820381 /* GradualEffectTranisitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradualEffectTranisitionAnimation.h; sourceTree = "<group>"; };
+		08C1DAE31E9B1C6B00820381 /* GradualEffectTranisitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradualEffectTranisitionAnimation.m; sourceTree = "<group>"; };
+		08C1DAE51E9B1FDF00820381 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		08C1DAE61E9B1FDF00820381 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +131,13 @@
 		08C1DA771E9B145200820381 /* GradualEffectTransitionAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08C1DAAB1E9B15EB00820381 /* Function */,
+				08C1DAB51E9B15EB00820381 /* Public */,
+				08C1DAC41E9B15EB00820381 /* Supporting Files */,
 				08C1DA7B1E9B145200820381 /* AppDelegate.h */,
 				08C1DA7C1E9B145200820381 /* AppDelegate.m */,
-				08C1DA7E1E9B145200820381 /* ViewController.h */,
-				08C1DA7F1E9B145200820381 /* ViewController.m */,
-				08C1DA811E9B145200820381 /* Main.storyboard */,
-				08C1DA841E9B145200820381 /* Assets.xcassets */,
-				08C1DA861E9B145200820381 /* LaunchScreen.storyboard */,
-				08C1DA891E9B145300820381 /* Info.plist */,
-				08C1DA781E9B145200820381 /* Supporting Files */,
 			);
 			path = GradualEffectTransitionAnimationDemo;
-			sourceTree = "<group>";
-		};
-		08C1DA781E9B145200820381 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				08C1DA791E9B145200820381 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		08C1DA911E9B145300820381 /* GradualEffectTransitionAnimationDemoTests */ = {
@@ -138,6 +156,126 @@
 				08C1DA9F1E9B145300820381 /* Info.plist */,
 			);
 			path = GradualEffectTransitionAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		08C1DAAB1E9B15EB00820381 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAAC1E9B15EB00820381 /* Home */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		08C1DAAC1E9B15EB00820381 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAAD1E9B15EB00820381 /* CHome */,
+				08C1DAB01E9B15EB00820381 /* MHome */,
+				08C1DAB11E9B15EB00820381 /* RHome */,
+				08C1DAB21E9B15EB00820381 /* VHome */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		08C1DAAD1E9B15EB00820381 /* CHome */ = {
+			isa = PBXGroup;
+			children = (
+				08057A6D1E9B28C700F1B9B6 /* HomeViewController.h */,
+				08057A6E1E9B28C700F1B9B6 /* HomeViewController.m */,
+				08C1DADE1E9B1C3900820381 /* CustomTranistion */,
+				08057A701E9B2C6B00F1B9B6 /* SecondViewController.h */,
+				08057A711E9B2C6B00F1B9B6 /* SecondViewController.m */,
+			);
+			path = CHome;
+			sourceTree = "<group>";
+		};
+		08C1DAB01E9B15EB00820381 /* MHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MHome;
+			sourceTree = "<group>";
+		};
+		08C1DAB11E9B15EB00820381 /* RHome */ = {
+			isa = PBXGroup;
+			children = (
+				08057A6B1E9B235900F1B9B6 /* 01.jpeg */,
+			);
+			path = RHome;
+			sourceTree = "<group>";
+		};
+		08C1DAB21E9B15EB00820381 /* VHome */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAE51E9B1FDF00820381 /* HomeCell.h */,
+				08C1DAE61E9B1FDF00820381 /* HomeCell.m */,
+				08057A731E9B2CC700F1B9B6 /* SecondContentView.h */,
+				08057A741E9B2CC700F1B9B6 /* SecondContentView.m */,
+			);
+			path = VHome;
+			sourceTree = "<group>";
+		};
+		08C1DAB51E9B15EB00820381 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAB61E9B15EB00820381 /* PublicCommon */,
+				08C1DABA1E9B15EB00820381 /* PublicFunction */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		08C1DAB61E9B15EB00820381 /* PublicCommon */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAB71E9B15EB00820381 /* CommonViewController.h */,
+				08C1DAB81E9B15EB00820381 /* CommonViewController.m */,
+				08C1DAB91E9B15EB00820381 /* PublicDefine.h */,
+			);
+			path = PublicCommon;
+			sourceTree = "<group>";
+		};
+		08C1DABA1E9B15EB00820381 /* PublicFunction */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DABB1E9B15EB00820381 /* YWAutoLayout */,
+			);
+			path = PublicFunction;
+			sourceTree = "<group>";
+		};
+		08C1DABB1E9B15EB00820381 /* YWAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DABC1E9B15EB00820381 /* AutoLayoutObject.h */,
+				08C1DABD1E9B15EB00820381 /* AutoLayoutObject.m */,
+				08C1DABE1E9B15EB00820381 /* UIView+AutoLayoutAttribute.h */,
+				08C1DABF1E9B15EB00820381 /* UIView+AutoLayoutAttribute.m */,
+				08C1DAC01E9B15EB00820381 /* YWAutoLayout.h */,
+			);
+			path = YWAutoLayout;
+			sourceTree = "<group>";
+		};
+		08C1DAC41E9B15EB00820381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DAC51E9B15EB00820381 /* Assets.xcassets */,
+				08C1DAC61E9B15EB00820381 /* LaunchScreen.storyboard */,
+				08C1DAC81E9B15EB00820381 /* Main.storyboard */,
+				08C1DACA1E9B15EB00820381 /* Info.plist */,
+				08C1DACB1E9B15EB00820381 /* main.m */,
+				08C1DACC1E9B15EB00820381 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08C1DADE1E9B1C3900820381 /* CustomTranistion */ = {
+			isa = PBXGroup;
+			children = (
+				08C1DADF1E9B1C3900820381 /* CustomTransitionViewController.h */,
+				08C1DAE01E9B1C3900820381 /* CustomTransitionViewController.m */,
+				08C1DAE21E9B1C6B00820381 /* GradualEffectTranisitionAnimation.h */,
+				08C1DAE31E9B1C6B00820381 /* GradualEffectTranisitionAnimation.m */,
+			);
+			path = CustomTranistion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C1DA881E9B145200820381 /* LaunchScreen.storyboard in Resources */,
-				08C1DA851E9B145200820381 /* Assets.xcassets in Resources */,
-				08C1DA831E9B145200820381 /* Main.storyboard in Resources */,
+				08C1DAD51E9B15EB00820381 /* Main.storyboard in Resources */,
+				08C1DAD61E9B15EB00820381 /* Info.plist in Resources */,
+				08C1DAD41E9B15EB00820381 /* LaunchScreen.storyboard in Resources */,
+				08057A6C1E9B235900F1B9B6 /* 01.jpeg in Resources */,
+				08C1DAD31E9B15EB00820381 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +413,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C1DA801E9B145200820381 /* ViewController.m in Sources */,
+				08057A721E9B2C6B00F1B9B6 /* SecondViewController.m in Sources */,
+				08057A751E9B2CC700F1B9B6 /* SecondContentView.m in Sources */,
 				08C1DA7D1E9B145200820381 /* AppDelegate.m in Sources */,
-				08C1DA7A1E9B145200820381 /* main.m in Sources */,
+				08C1DAD01E9B15EB00820381 /* AutoLayoutObject.m in Sources */,
+				08C1DACF1E9B15EB00820381 /* CommonViewController.m in Sources */,
+				08C1DAE71E9B1FDF00820381 /* HomeCell.m in Sources */,
+				08C1DAD71E9B15EB00820381 /* main.m in Sources */,
+				08057A6F1E9B28C700F1B9B6 /* HomeViewController.m in Sources */,
+				08C1DAE11E9B1C3900820381 /* CustomTransitionViewController.m in Sources */,
+				08C1DAD11E9B15EB00820381 /* UIView+AutoLayoutAttribute.m in Sources */,
+				08C1DAE41E9B1C6B00820381 /* GradualEffectTranisitionAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +459,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08C1DA811E9B145200820381 /* Main.storyboard */ = {
+		08C1DAC61E9B15EB00820381 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				08C1DA821E9B145200820381 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08C1DA861E9B145200820381 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08C1DA871E9B145200820381 /* Base */,
+				08C1DAC71E9B15EB00820381 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08C1DAC81E9B15EB00820381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08C1DAC91E9B15EB00820381 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +570,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GradualEffectTransitionAnimationDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/wang66_GitHub/GradualEffectTransitionAnimationDemo/GradualEffectTransitionAnimationDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/wang66_GitHub/GradualEffectTransitionAnimationDemo/GradualEffectTransitionAnimationDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.GradualEffectTransitionAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +583,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GradualEffectTransitionAnimationDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/wang66_GitHub/GradualEffectTransitionAnimationDemo/GradualEffectTransitionAnimationDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/wang66_GitHub/GradualEffectTransitionAnimationDemo/GradualEffectTransitionAnimationDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.GradualEffectTransitionAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +657,7 @@
 				08C1DAA41E9B145300820381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08C1DAA51E9B145300820381 /* Build configuration list for PBXNativeTarget "GradualEffectTransitionAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +666,7 @@
 				08C1DAA71E9B145300820381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08C1DAA81E9B145300820381 /* Build configuration list for PBXNativeTarget "GradualEffectTransitionAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +675,7 @@
 				08C1DAAA1E9B145300820381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
