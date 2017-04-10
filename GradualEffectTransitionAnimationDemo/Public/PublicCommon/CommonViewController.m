@@ -72,8 +72,8 @@
 	[self.rightButton addGestureRecognizer:rightTapGesture];
 	[self.titleView addSubview:self.rightButton];
 	
-	self.titleBottomLine = [[UIView alloc] initWithFrame:CGRectMake(0, 63.7f, self.width, 0.3f)];
-	self.titleBottomLine.backgroundColor = [UIColor lightGrayColor];
+	self.titleBottomLine = [[UIView alloc] initWithFrame:CGRectMake(0, 63.5f, self.width, 0.5f)];
+	self.titleBottomLine.backgroundColor = [UIColor blackColor];
 	[self.titleView addSubview:self.titleBottomLine];
 
 }

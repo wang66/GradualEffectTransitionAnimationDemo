@@ -11,6 +11,7 @@
 		08057A6F1E9B28C700F1B9B6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A6E1E9B28C700F1B9B6 /* HomeViewController.m */; };
 		08057A721E9B2C6B00F1B9B6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A711E9B2C6B00F1B9B6 /* SecondViewController.m */; };
 		08057A751E9B2CC700F1B9B6 /* SecondContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08057A741E9B2CC700F1B9B6 /* SecondContentView.m */; };
+		08057A771E9B92B100F1B9B6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 08057A761E9B92B100F1B9B6 /* back.png */; };
 		08C1DA7D1E9B145200820381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA7C1E9B145200820381 /* AppDelegate.m */; };
 		08C1DA931E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA921E9B145300820381 /* GradualEffectTransitionAnimationDemoTests.m */; };
 		08C1DA9E1E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1DA9D1E9B145300820381 /* GradualEffectTransitionAnimationDemoUITests.m */; };
@@ -52,6 +53,7 @@
 		08057A711E9B2C6B00F1B9B6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		08057A731E9B2CC700F1B9B6 /* SecondContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondContentView.h; sourceTree = "<group>"; };
 		08057A741E9B2CC700F1B9B6 /* SecondContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondContentView.m; sourceTree = "<group>"; };
+		08057A761E9B92B100F1B9B6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		08C1DA751E9B145200820381 /* GradualEffectTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradualEffectTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C1DA7B1E9B145200820381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08C1DA7C1E9B145200820381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		08C1DAB11E9B15EB00820381 /* RHome */ = {
 			isa = PBXGroup;
 			children = (
+				08057A761E9B92B100F1B9B6 /* back.png */,
 				08057A6B1E9B235900F1B9B6 /* 01.jpeg */,
 			);
 			path = RHome;
@@ -386,6 +389,7 @@
 			files = (
 				08C1DAD51E9B15EB00820381 /* Main.storyboard in Resources */,
 				08C1DAD61E9B15EB00820381 /* Info.plist in Resources */,
+				08057A771E9B92B100F1B9B6 /* back.png in Resources */,
 				08C1DAD41E9B15EB00820381 /* LaunchScreen.storyboard in Resources */,
 				08057A6C1E9B235900F1B9B6 /* 01.jpeg in Resources */,
 				08C1DAD31E9B15EB00820381 /* Assets.xcassets in Resources */,

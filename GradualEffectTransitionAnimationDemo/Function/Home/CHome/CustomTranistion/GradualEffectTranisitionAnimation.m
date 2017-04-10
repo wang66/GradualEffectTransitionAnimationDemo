@@ -35,8 +35,6 @@
     
     snapView.backgroundColor = [UIColor purpleColor];
     
-    
-    
     NSTimeInterval timeIntervale = [self transitionDuration:transitionContext];
     
     

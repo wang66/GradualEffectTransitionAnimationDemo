@@ -21,6 +21,7 @@
     [super viewDidLoad];
     
     self.titleLabel.text = @"CustomTransitionViewController";
+    self.leftButton.hidden = YES;
     
     [self loadTableView];
     

@@ -22,7 +22,7 @@
     
     self.titleLabel.text = @"SecondViewController";
     
-    self.contentView.backgroundColor = [UIColor blackColor];
+    self.contentView.backgroundColor = [UIColor whiteColor];
     SecondContentView *secondV = [[SecondContentView alloc] initWithFrame:self.contentView.bounds];
     [secondV refreshContent];
     [self.contentView addSubview:secondV];
